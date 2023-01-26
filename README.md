@@ -44,7 +44,7 @@ With plotting functionalities
 ```
 merfishBarcodeBlankGenerator.py -i Codebook_sim_8r.csv -d 4 -p
 ```
-
+![Plotting example](Plotting_example.png)
 
 ## Authors
 

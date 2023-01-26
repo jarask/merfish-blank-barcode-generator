@@ -15,8 +15,6 @@ Script to generate blank barcodes for a MERFISH experiment given an existing cod
 * Seaborn (For plotting functionality)
 
 ### Executing program
-* How to run the program
-* Step-by-step bullets
 
 ```
 merfishBarcodeBlankGenerator.py [-h] -i INPUT_FILE -d MIN_DIST [-b NUM_BLANKS] [-n LENGTH] [-w WEIGHT]
@@ -38,6 +36,15 @@ options:
   -p, --plot
   -v, --verbose
 ```
+#### Minimal example
+```
+merfishBarcodeBlankGenerator.py -i Codebook_sim_8r.csv -d 4
+```
+With plotting functionalities
+```
+merfishBarcodeBlankGenerator.py -i Codebook_sim_8r.csv -d 4 -p
+```
+
 
 ## Authors
 

@@ -190,9 +190,11 @@ def plot(valid_blanks, valid_blanks2, hd_df2, N):
 
 
 if __name__ == "__main__":
-    sys.argv = sys.argv + ["-i", "C:/Users/jakobrask/Documents/merfish-analysis/misc-testing/data/Codebook_brewer_8r.csv",
-                           "-d", "4", "-b", "10", "-w", "4", "-p", "-v"]
+    # For debugging
+    # sys.argv = sys.argv + ["-i", "C:/Users/jakobrask/Documents/merfish-analysis/misc-testing/data/Codebook_brewer_8r.csv",
+    #                        "-d", "4", "-b", "10", "-w", "4", "-p", "-v"]
     args = parser.parse_args()
-    if args.verbose:
-        print(" ".join(sys.argv))
+    # For debugging
+    # if args.verbose:
+    #     print(" ".join(sys.argv))
     main(args)
